@@ -3,7 +3,6 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 // seperte out images 
-import back from "../public/Product_0.svg"
 
 export default function HomePage() {
   return (
