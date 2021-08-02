@@ -1,0 +1,96 @@
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-image: url("/assets/shutter.jpg") no-repeat; */
+}
+h1 {
+  color:white;
+  position: absolute;
+  top: 50%;
+  z-index: 100;
+  width: 100%;
+  text-align: center;
+  transform: translate(0, -100%);
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  letter-spacing: 40px;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+/* / logo style  */
+.elevate {
+    color: rgb(12, 11, 11);
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    z-index: 100;
+    width: 100%;
+    text-indent: 0%;
+    transform: translate(100, -100%);
+    font-family: "Raleway", sans-serif;
+    font-weight: 100;
+    letter-spacing: 40px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+#email {
+  background-color:rgba(0,0,0,0) !important;
+  width: 20%;
+  left: 40%; 
+  color:white ;
+
+}
+.emailForm{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  top: 70%;
+  margin-top: 100px;
+}
+.submitButton{
+  margin-left:  10px;
+}
+#videoBacker {
+  background-size: cover;
+  object-fit: cover;
+  z-index: 9;
+  opacity: 0.3;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  transition: 1s opacity ease-in-out;
+}
+.bar-top {
+  background-color: black;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+}
+.bar-bottom {
+  background-color: black;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+}
+#info {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+    display: block;
+    color: white;
+  }
+
+  
